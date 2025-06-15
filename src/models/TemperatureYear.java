@@ -16,7 +16,7 @@ public class TemperatureYear {
         return months;
     }
 
-    public double getTemperatureByMonth(String month) {
+    public int getTemperatureByMonth(String month) {
         return temperatures[getIndexByMonth(month)];
     }
 

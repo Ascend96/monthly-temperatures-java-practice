@@ -28,7 +28,6 @@ public class Main {
             while (true) {
                 try {
                     if(userInput.isBlank()){
-                        System.out.println("user input is blank");
                         userInput = scanner.nextLine();
                     }
                     year.displayMonthlyTemperatureInformation(userInput.toLowerCase());
